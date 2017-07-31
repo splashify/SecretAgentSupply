@@ -1,0 +1,41 @@
+html {
+  font-family: Helvetica, sans-serif ;
+  font-size: 18px;
+}
+
+.full-container {
+background-color: black;
+
+}
+
+.container {
+
+display: flex;
+align-items: center;
+width: 960px;
+
+}
+
+.header {
+display: flex;
+color: white;
+}
+
+.logo {
+height: 1.5rem;
+padding-left: 0.5rem;
+padding-right: 1rem;
+margin: 0.66rem 0rem;
+}
+
+.header span {
+  display: flex;
+  align-items: center;
+}
+
+.banner-image {
+  height: 25rem;
+  background-image: url("/resources/images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
